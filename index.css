@@ -1,0 +1,77 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(200, 195, 188);
+    background-color: rgb(24, 26, 27);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(31, 34, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.tarjeta {
+    width: 450px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: rgb(117, 24, 27);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta p {
+    margin-top: -15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.tarjeta a {
+    background-color: rgb(145, 30, 36);
+    border-radius: 50px;
+    text-align: center;
+    padding: 18px 30px 19px;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #db545a;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 42, 43);
+    width: 100%;
+    height: 8%;
+    bottom: 0px;
+    margin-top: auto;
+}
