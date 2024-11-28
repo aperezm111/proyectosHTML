@@ -1,4 +1,3 @@
-/*Estilos de la estructura básica de la web.*/
 html,
 body {
   height: 100%;
@@ -11,7 +10,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   flex-direction: column;
-  /*flex-grow: 1;*/
+  flex-grow: 1;
   background-color: #184050;
   color: black;
 }
@@ -48,7 +47,7 @@ nav a:hover {
 .activo {
   text-decoration: underline;
   pointer-events: none; /*Desactiva la interacción.*/
-  cursor: default; /*Cambia el cursor para indicar que no se puede clickar.*/
+  cursor: default; /*Cambia el cursor para indicar que no es clickeable.*/
   color: #1A9EFD; 
 }
 
@@ -61,37 +60,4 @@ footer {
   width: 100%;
   margin-top: auto;
   color: #DCDEDF;
-}
-
-/*Estilos del contenido propio de la página.*/
-#resumen {
-  background-color: #f4f4f4;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 8px;
-  text-align: center;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-}
-
-#resumen h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-#resumen p {
-  font-size: 1.2em;
-  margin-bottom: 15px;
-}
-
-#resumen ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#resumen ul li {
-  font-size: 1.1em;
-  margin: 5px 0;
 }
