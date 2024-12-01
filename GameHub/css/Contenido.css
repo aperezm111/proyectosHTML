@@ -1,3 +1,4 @@
+/*Estilos de la estructura básica de la web.*/
 html,
 body {
   height: 100%;
@@ -12,7 +13,7 @@ body {
   flex-direction: column;
   flex-grow: 1;
   background-color: #184050;
-  color: black;
+  color: #DCDEDF;;
 }
 
 header {
@@ -24,7 +25,6 @@ header {
   background-color: #171D25;
   padding: 10px 20px;
   height: 80px;
-  text-align: center;
 }
 
 .logo img {
@@ -41,13 +41,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #f31212;
+  color: #1A9EFD;
 }
 
 .activo {
   text-decoration: underline;
   pointer-events: none; /*Desactiva la interacción.*/
-  cursor: default; /*Cambia el cursor para indicar que no es clickeable.*/
+  cursor: default; 
   color: #1A9EFD; 
 }
 
@@ -61,3 +61,5 @@ footer {
   margin-top: auto;
   color: #DCDEDF;
 }
+
+/*Estilos del contenido propio de la página.*/

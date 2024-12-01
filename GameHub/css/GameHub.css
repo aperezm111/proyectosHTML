@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   /*flex-grow: 1;*/
   background-color: #184050;
-  color: black;
+  color: #DCDEDF;
 }
 
 header {
@@ -25,7 +25,6 @@ header {
   background-color: #171D25;
   padding: 10px 20px;
   height: 80px;
-  text-align: center;
 }
 
 .logo img {
@@ -42,13 +41,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #f31212;
+  color: #1A9EFD;
 }
 
 .activo {
   text-decoration: underline;
   pointer-events: none; /*Desactiva la interacción.*/
-  cursor: default; /*Cambia el cursor para indicar que no se puede clickar.*/
+  cursor: default; 
   color: #1A9EFD; 
 }
 
@@ -60,14 +59,13 @@ footer {
   bottom: 0;
   width: 100%;
   margin-top: auto;
-  color: #DCDEDF;
 }
 
 /*Estilos del contenido propio de la página.*/
 #resumen {
-  background-color: #f4f4f4;
+  background-color: #1F2123;
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px 20px;
   border-radius: 8px;
   text-align: center;
   flex-grow: 1;

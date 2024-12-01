@@ -24,7 +24,75 @@
     </header>
 
     <!--Contenido de esta página.-->
-    
+    <section id="formulario">
+        <form action="recibir.php" method="get">
+            <h1>Contáctanos</h1>
+
+            <!--Inputs para introducir el nombre completo.-->
+            <p>Nombre completo</p>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre de pila" pattern="[A-Za-z]{3,30}" required
+                title="Solamente se pueden escribir letras. Minimo 3 y maximo 30 caracteres" />
+            <input type="text" name="nombre" placeholder="Escribe tu primer apellido" pattern="[A-Za-z]{3,30}" required
+                title="Solamente se pueden escribir letras. Minimo 3 y maximo 30 caracteres" />
+            <input type="text" name="nombre" placeholder="Escribe tu segundo apellido" pattern="[A-Za-z]{3,30}" required
+                title="Solamente se pueden escribir letras. Minimo 3 y maximo 30 caracteres" />
+
+            <br><br>
+
+            <!--Input para introducir el correo.-->
+            <p>Correo electrónico</p>
+            <input type="text" name="correo" pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)" required
+                title="Formato usuario@dominio.com/es" />
+
+            <br><br>
+
+            <!--Input para introducir el teléfono.-->
+            <p>Número de teléfono</p>
+            <input type="text" name="tlf" pattern="[0-9]{9}" title="Solo numeros y formato xxxxxxxxx" />
+
+            <br><br>
+
+            <!--<h1>Destino del viaje</h1>
+            <p>
+                País de destino <input list="paises" required />
+                <datalist id="paises">
+                    <option value="Japón"></option>
+                    <option value="Francia"></option>
+                    <option value="Corea del Sur"></option>
+                    <option value="Italia"></option>
+                    <option value="Canadá"></option>
+                </datalist>
+            </p>
+            <p>Ciudad de destino <input type="text" name="ciudad" /></p>
+
+            <h1>Fechas del viaje</h1>
+            <p>Fecha de salida <input type="date" name="fechaSalida" min="2024-10-17" max="2029-10-17" required /></p>
+            <p>Fecha de regreso <input type="date" name="fechaRegreso" min="2024-10-17" max="2029-10-17" required /></p>
+
+            <h1>Preferencias de actividades</h1>
+            <p>Tipo de viaje deseado</p>
+            <p><input type="radio" name="genero" value="cul" />Cultural</p>
+            <p><input type="radio" name="genero" value="av" />Aventura</p>
+            <p><input type="radio" name="genero" value="relax" />Relajación</p>
+            <p><input type="radio" name="genero" value="relax" />Gastronomía</p>
+
+            <br>
+
+            <p>Acitividades preferidas</p>
+            <p>Excursiones<input type="checkbox" name="excursion" /></p>
+            <p>Museos<input type="checkbox" name="museo" /></p>
+            <p>Playa<input type="checkbox" name="playa" /></p>
+            <p>Senderismo<input type="checkbox" name="senderismo" /></p>
+            <p>Compras<input type="checkbox" name="compras" /></p>
+            <p>Vida nocturna<input type="checkbox" name="nocturno" /></p>
+
+            <br>
+
+            <p>Comentarios adicionales <textarea name="text" cols="30" rows="3" minlength="20"></textarea></p>!-->
+
+            <p><input type="reset" value="Borrar" /> <input type="submit" value="Enviar" /></p>
+        </form>
+    </section>
 
     <!--Pie de página.-->
     <footer>
