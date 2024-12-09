@@ -83,7 +83,7 @@ footer {
 }
 
 /* Contenedor flex */
-.game-container {
+.contenedor-juegos {
   display: flex;
   flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas */
   justify-content: center; /* Centra las tarjetas horizontalmente */
@@ -91,7 +91,7 @@ footer {
 }
 
 /* Tarjetas */
-.game-card {
+.tarjeta {
   background: #1b1b1b;
   color: white;
   border-radius: 10px;
@@ -102,26 +102,26 @@ footer {
   text-align: left;
 }
 
-.game-card:hover {
+.tarjeta:hover {
   transform: scale(1.05); /* Efecto hover: agranda ligeramente */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Sombra más intensa */
 }
 
 /* Imagen del juego */
-.game-card img {
+.tarjeta img {
   width: 100%;
   height: auto;
   display: block;
 }
 
 /* Título del juego */
-.game-card h3 {
+.tarjeta h3 {
   font-size: 20px;
   margin: 10px 15px;
 }
 
 /* Descripción */
-.game-card p {
+.tarjeta p {
   font-size: 14px;
   color: #ccc;
   margin: 0 15px 15px;
