@@ -76,10 +76,10 @@ footer {
 }
 
 /* Título */
-#content h2 {
+#contenido h2 {
   font-size: 28px;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* Contenedor flex */
