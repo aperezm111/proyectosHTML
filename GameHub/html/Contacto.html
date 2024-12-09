@@ -32,27 +32,61 @@
             <div class="nombre-apellido">
                 <!--Nombre-->
                 <div class="grupo">
-                    <p>Nombre</p>
-                    <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required>
+                    <p class="textoForm">Nombre</p>
+                    <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required
+                        minlength="3" maxlength="30" pattern="[A-Za-z]+"
+                        title="Solo se puede incluir letras. Mínimo 3 y máximo 20">
                 </div>
                 <!--Apellido-->
-                <div class="grupo">
-                    <p>Apellido</p>
-                    <input type="text" id="apellido" name="apellido" placeholder="Introduce tu primer apellido"
-                        required>
+                <div class=" grupo">
+                    <p class="textoForm">Apellido</p>
+                    <input type="text" id="apellido" name="apellido" placeholder="Introduce tu primer apellido" required
+                        minlength="3" maxlength="30" pattern="[A-Za-z]+"
+                        title="Solo se puede incluir letras. Mínimo 3 y máximo 20">
                 </div>
             </div>
 
             <!--Correo-->
             <div class="grupo">
-                <p>Correo electrónico</p>
-                <input type="email" id="email" name="email" placeholder="Escribe tu correo" required>
+                <p class="textoForm">Correo electrónico</p>
+                <input type="email" id="email" name="email" placeholder="Escribe tu correo" required
+                    pattern="[A-Za-z0-9]+@(gmail|outlook)\.(es|com)" title="Formato: [nombre]@[gmail/outlook].[com/es]">
             </div>
 
             <!--Mensaje-->
             <div class="grupo">
-                <p>Cuéntanos tu problema</p>
-                <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí..." rows="4" required></textarea>
+                <p class="textoForm">Cuéntanos tu problema</p>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí..." rows="4" required minlength="5"
+                    maxlength="300" title="Minimo 5 caracteres y maximo 300."></textarea>
+            </div>
+
+            <!--Elecciones radio-->
+            <div class="contenedorRadio">
+                <p>Plataforma preferida:</p>
+                <div class="opcionesRadio">
+                    <div>
+                        <input type="radio" name="plataforma" value="PC" required>
+                        <p>PC</p>
+                    </div>
+                    <div>
+                        <input type="radio" name="plataforma" value="Play">
+                        <p>PlayStation</p>
+                    </div>
+                    <div>
+                        <input type="radio" name="plataforma" value="XBox">
+                        <p>Xbox</p>
+                    </div>
+                    <div>
+                        <input type="radio" name="plataforma" value="Switch">
+                        <p>Switch</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Checkbox-->
+            <div class="contenedorCheck">
+                <p>Me gustaría recibir correo promocional</p>
+                <input type="checkbox" name="promo" checked>
             </div>
 
             <!--Contenedor para los botones de Enviar y Borrar-->
