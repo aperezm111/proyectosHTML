@@ -1,4 +1,4 @@
-/*Estilos de la estructura básica de la web.*/
+/*Estilos de la estructura básica de la web*/
 html,
 body {
   height: 100%;
@@ -46,7 +46,7 @@ nav a:hover {
 
 .activo {
   text-decoration: underline;
-  pointer-events: none; /*Desactiva la interacción.*/
+  pointer-events: none; /*Desactiva la interacción*/
   cursor: default; 
   color: #1A9EFD; 
 }
@@ -62,7 +62,7 @@ footer {
   color: #DCDEDF;
 }
 
-/*Estilos del contenido propio de la página.*/
+/*Estilos del contenido propio de la página*/
 #contenido {
   background-color: #1b1b1b;
   padding: 20px;
@@ -72,57 +72,51 @@ footer {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
 
-/* Título */
-#contenido h2 {
+#contenido h2 { /*Título*/
   font-size: 28px;
-  color: white;
   margin-bottom: 40px;
 }
 
-/* Contenedor flex */
-.contenedor-juegos {
-  display: flex;
-  flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas */
-  justify-content: center; /* Centra las tarjetas horizontalmente */
-  gap: 20px; /* Espaciado entre tarjetas */
+#contenido h2:nth-of-type(2) { /*Para separar el segundo título por arriba*/
+  margin-top: 60px;
 }
 
-/* Tarjetas */
+.contenedor-juegos , .juegos-destacados{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 30px; 
+}
+
 .tarjeta {
-  background: #1b1b1b;
-  color: white;
+  background: #202020;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 250px; /* Ancho fijo para las tarjetas */
+  transition: transform 0.3s ease;
+  width: 267px; 
   text-align: left;
 }
 
 .tarjeta:hover {
-  transform: scale(1.05); /* Efecto hover: agranda ligeramente */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Sombra más intensa */
+  transform: scale(1.1); /*Efecto para agrandar ligeramente la tarjeta*/
 }
 
-/* Imagen del juego */
-.tarjeta img {
+.tarjeta img { /*Imagen del juego*/
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Título del juego */
-.tarjeta h3 {
-  font-size: 20px;
-  margin: 10px 15px;
+.tarjeta h3 { /*Título del juego*/
+  font-size: 24px;
+  margin: 12px 12px;
 }
 
-/* Descripción */
-.tarjeta p {
-  font-size: 14px;
-  color: #ccc;
-  margin: 0 15px 15px;
+.tarjeta p { /*Descripción del juego*/
+  font-size: 16px;
+  margin: 12px 12px;
 }

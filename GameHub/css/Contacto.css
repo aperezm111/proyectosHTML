@@ -1,4 +1,4 @@
-/*Estilos de la estructura básica de la web.*/
+/*Estilos de la estructura básica de la web*/
 html,
 body {
   height: 100%;
@@ -46,7 +46,7 @@ nav a:hover {
 
 .activo {
   text-decoration: underline;
-  pointer-events: none; /*Desactiva la interacción.*/
+  pointer-events: none; /*Desactiva la interacción*/
   cursor: default; 
   color: #1A9EFD; 
 }
@@ -62,7 +62,7 @@ footer {
   color: #DCDEDF;
 }
 
-/*Estilos del contenido propio de la página.*/
+/*Estilos del contenido propio de la página*/
 #contacto {
   background: #1b1b1b;
   padding: 30px 30px;
@@ -92,7 +92,7 @@ footer {
 }
 
 .nombre-apellido .grupo{
-  flex: 1; /*Con esto crecen o disminuyen el nombre y el apellido si se modifica el textarea.*/
+  flex: 1; /*Con esto crecen o disminuyen el nombre y el apellido si se modifica el textarea*/
 }
 
 #email {
