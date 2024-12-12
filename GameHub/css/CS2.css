@@ -80,7 +80,7 @@ footer {
   flex-direction: row;
   gap: 30px;
   width: 1600px;
-  height: auto;
+  height: 550px;
 }
 
 .col-izquierda {
@@ -101,9 +101,8 @@ h2 {
   text-align: left;
 }
 
-.video {
-  /*flex: 1;
-  display: flex;*/
+.descripcion {
+  text-align: left;
 }
 
 .video video {
