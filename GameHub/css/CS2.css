@@ -45,8 +45,7 @@ nav a:hover {
 
 .activo {
   text-decoration: underline;
-  pointer-events: none;
-  /*Desactiva la interacción*/
+  pointer-events: none; /*Desactiva la interacción*/
   cursor: default;
   color: #1A9EFD;
 }
@@ -68,7 +67,6 @@ footer {
   margin: 20px 20px;
   border-radius: 8px;
   text-align: center;
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,9 +113,6 @@ h2 {
 
 /*Parte inferior de la informacion del juego*/
 .info-inferior {
-  /*display: flex;
-  flex-direction: row;
-  gap: 30px;*/
   width: 1600px;
   height: 375px;
 }
@@ -213,7 +208,6 @@ tfoot{ /*Estilo para el color de fondo del tfoot*/
 .tabla thead tr:first-child th {
   font-size: 18px;
   text-align: center;
-  /*border-bottom: 3px solid #ffffff;*/
 }
 
 .tabla tbody td { /*Filas del cuerpo*/
