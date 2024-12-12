@@ -45,9 +45,10 @@ nav a:hover {
 
 .activo {
   text-decoration: underline;
-  pointer-events: none; /*Desactiva la interacción*/
-  cursor: default; 
-  color: #1A9EFD; 
+  pointer-events: none;
+  /*Desactiva la interacción*/
+  cursor: default;
+  color: #1A9EFD;
 }
 
 footer {
@@ -70,5 +71,44 @@ footer {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center; 
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 1600px;
+  height: auto;
+}
+
+.col-izquierda {
+  width: 800px;
+  height: auto;
+  padding-left: 150px;
+}
+
+.col-derecha {
+  width: 460px;
+  height: auto;
+  padding-top: 80px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.video {
+  /*flex: 1;
+  display: flex;*/
+}
+
+.video video {
+  width: 100%;
+  max-width: 800px;
+  border: 3px solid rgba(13, 112, 204, 0.247);
+  border-radius: 10px;
 }
