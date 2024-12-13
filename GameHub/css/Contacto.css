@@ -191,3 +191,8 @@ textarea:valid {
   border: 2px solid green;
   background-color: rgb(137, 247, 137);
 }
+
+.contenedorDesplegable {
+  font-size: 14px;
+  color: #aaa;
+}

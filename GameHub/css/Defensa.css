@@ -1,0 +1,90 @@
+/*Estilos de la estructura básica de la web*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #184050;
+  color: #DCDEDF;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+  background-color: #171D25;
+  padding: 10px 20px;
+  height: 80px;
+}
+
+.logo img {
+  height: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+  color: #DCDEDF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #1A9EFD;
+}
+
+.activo {
+  text-decoration: underline;
+  pointer-events: none; /*Desactiva la interacción*/
+  cursor: default; 
+  color: #1A9EFD; 
+}
+
+footer {
+  background-color: #171D25;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+/*Estilos del contenido propio de la página*/
+#defensa {
+  background-color: #1b1b1b;
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 8px;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.volver {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #f39c12;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .volver:hover {
+    background: #d87a0d;
+  }
