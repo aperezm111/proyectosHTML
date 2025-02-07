@@ -2,17 +2,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    gap: 80px;
+    min-height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #184050;
     padding: 20px;
     box-sizing: border-box;
 }
-.container {
+
+/* Estilos relacionados con las imagenes */
+.contenedor-imagenes {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 img {
     width: 100%;
@@ -20,4 +25,14 @@ img {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos relaciones con los botones */
+.contenedor-botones {
+    display: none;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*visibility: hidden;*/
 }
