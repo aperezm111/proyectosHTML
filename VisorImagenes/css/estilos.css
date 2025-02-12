@@ -27,12 +27,11 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos relaciones con los botones */
+/* Estilos relacionados con los botones */
 .contenedor-botones {
     display: none;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /*visibility: hidden;*/
 }
